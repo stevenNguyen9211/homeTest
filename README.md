@@ -55,3 +55,4 @@ II/ How to run
 3/ Execution
 
 ● Open the folder execution and run the xml file. You can both run test with parallel or single mode with correspondingly suite: runSingleTest.xml and runParallelTest.xml
+● Make sure you download the newest Chrome browser to fit the chromedriver which we are using at this time we create the project.
