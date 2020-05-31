@@ -2,33 +2,34 @@ I/ Set up environment
 
 1/ Eclipse
 
--Download and install Eclipse: https://www.eclipse.org/downloads/packages/
+- Download and install Eclipse: https://www.eclipse.org/downloads/packages/
 
 2/ JAVA
 
--Download and install Java JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+- Download and install Java JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
--Set java home: https://javatutorial.net/set-java-home-windows-10
+- Set java home: https://javatutorial.net/set-java-home-windows-10
+- Project need to config is run with JRE 1.7
 
 3/ Maven
 
--Download Maven: https://maven.apache.org/download.cgi
+- Download Maven: https://maven.apache.org/download.cgi
 
--Set Maven Home, Path: https://www.tutorialspoint.com/maven/maven_environment_setup
+- Set Maven Home, Path: https://www.tutorialspoint.com/maven/maven_environment_setup
 
 4/ TestNG
 
--Download and install testNG: https://www.toolsqa.com/selenium-webdriver/install-testng/
+- Download and install testNG: https://www.toolsqa.com/selenium-webdriver/install-testng/
 
 5/ Git
 
--Download and install Git: https://git-scm.com/downloads
+- Download and install Git: https://git-scm.com/downloads
 
 6/ GitHub
 
--Register GitHub account.
+- Register GitHub account.
 
--Link to clone code: https://github.com/stevenNguyen9211/shopeeTestQC.git
+- Link to clone code: https://github.com/stevenNguyen9211/shopeeTestQC.git
 
 II/ How to run
 
