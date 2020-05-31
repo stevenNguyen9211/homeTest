@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [mecury-test]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="LoginSuite(failed)">
+    <classes>
+      <class name="com.testCases.TestAPI">
+        <methods>
+          <include name="testCallAPI"/>
+        </methods>
+      </class> <!-- com.testCases.TestAPI -->
+    </classes>
+  </test> <!-- LoginSuite(failed) -->
+</suite> <!-- Failed suite [mecury-test] -->

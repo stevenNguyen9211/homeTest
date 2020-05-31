@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [test-suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Platform" value="win"/>
+  <test thread-count="3" parallel="tests" name="test1(failed)">
+    <classes>
+      <class name="com.testCases.TestSortByFirstName">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TestSorting"/>
+        </methods>
+      </class> <!-- com.testCases.TestSortByFirstName -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [test-suite] -->

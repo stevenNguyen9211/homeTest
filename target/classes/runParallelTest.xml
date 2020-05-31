@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="1" name="test-suite-parallel"
+	parallel="tests">
+	<test name="test1">
+		<classes>
+			<class name="com.testCases.TestSortByFirstName">
+				<methods>
+					<include name="TestSorting" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<class name="com.testCases.TestFilterByStatus">
+				<methods>
+					<include name="TestFilter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test3">
+		<classes>
+			<class name="com.testCases.TestAPI">
+				<methods>
+					<include name="testCallAPI" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-31T05:04:01Z" name="test-suite" finished-at="2020-05-31T05:04:19Z" duration-ms="17562">
+    <groups>
+    </groups>
+    <test started-at="2020-05-31T05:04:01Z" name="test1" finished-at="2020-05-31T05:04:19Z" duration-ms="17562">
+      <class name="com.testCases.TestSortByFirstName">
+        <test-method signature="TestSorting()[pri:0, instance:com.testCases.TestSortByFirstName@169e6180]" started-at="2020-05-31T05:04:01Z" name="TestSorting" finished-at="2020-05-31T05:04:18Z" duration-ms="16906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSorting -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testCases.TestSortByFirstName@169e6180]" started-at="2020-05-31T05:04:18Z" name="afterTest" finished-at="2020-05-31T05:04:19Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testCases.TestSortByFirstName -->
+    </test> <!-- test1 -->
+  </suite> <!-- test-suite -->
+</testng-results>
