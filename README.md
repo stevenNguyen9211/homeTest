@@ -35,11 +35,11 @@ II/ How to run
 
 1/ Clone the repository
 
-● Create your workspace directory: example E:/Shopee/workspace
+● Create your workspace directory: example E:/HomeTest/workspace
 
-● On command prompt, type the following command: cd E:/Shopee/workspace
+● On command prompt, type the following command: cd E:/HomeTest/workspace
 
-● For cloning, type Git clone command: git clone https://github.com/stevenNguyen9211/shopeeTestQC.git Or download zip from https://github.com/stevenNguyen9211/shopeeTestQC.git
+● For cloning, type Git clone command: git clone https://github.com/stevenNguyen9211/homeTest.git Or download zip from the same above address
 
 2/ Import in Eclipse workspace
 
