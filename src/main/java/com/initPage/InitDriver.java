@@ -30,13 +30,12 @@ public class InitDriver {
 			System.setProperty("webdriver.chrome.driver", browserDriver + "chromedriver.exe");
 			break;
 		case "mac":
-			System.setProperty("webdriver.chrome.driver", browserDriver + "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", browserDriver + "chromedriver_mac");
 			break;
 		default:
 			LOGGER.info("There is no webdriver that is matched to selection");
 		}
 
-		System.setProperty("webdriver.chrome.driver", browserDriver + "chromedriver.exe");
 		wDriver = new ChromeDriver(chromeOption);
 		wDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		wDriver.manage().window().maximize();
